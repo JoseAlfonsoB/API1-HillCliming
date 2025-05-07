@@ -1,0 +1,63 @@
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%23558C7E'%3e%3c/rect%3e%3cpath d='M0%2c541.575C98.862%2c524.338%2c159.015%2c427.061%2c227.041%2c353.283C279.953%2c295.897%2c306.966%2c224.656%2c351.39%2c160.474C407.933%2c78.783%2c518.291%2c23.909%2c523.685%2c-75.294C529.065%2c-174.246%2c458.386%2c-269.627%2c377.92%2c-327.469C302.715%2c-381.529%2c200.023%2c-353.303%2c109.525%2c-373.009C27.511%2c-390.868%2c-45.319%2c-448.721%2c-128.535%2c-437.75C-217.266%2c-426.051%2c-303.811%2c-381.545%2c-359.163%2c-311.216C-413.583%2c-242.072%2c-411.725%2c-148.09%2c-424.975%2c-61.102C-438.343%2c26.661%2c-460.842%2c114.051%2c-436.962%2c199.554C-410.709%2c293.554%2c-361.196%2c382.29%2c-284.342%2c442.445C-203.666%2c505.592%2c-100.928%2c559.172%2c0%2c541.575' fill='%2387BBA2'%3e%3c/path%3e%3cpath d='M1440 1149.207C1557.68 1142.401 1677.198 1146.251 1781.649 1091.616 1891.798 1034 2007.762 954.317 2041.381 834.641 2074.467 716.862 1996.168 600.387 1951.653 486.435 1916.426 396.258 1863.467 320.272 1809.142 240.137 1746.871 148.281 1711.048 27.254 1609.707-17.969 1505.915-64.286 1387.477-21.07 1276.256 2.339 1156.142 27.62 1006.226 22.697 936.507 123.721 866.06 225.8 929.376 364.755 940.923 488.244 949.79 583.07 977.271 669.323 996.251 762.653 1021.858 888.571 975.084 1048.26 1071.973 1132.661 1166.481 1214.988 1314.871 1156.444 1440 1149.207' fill='%23CDE8E5'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border-left: 10px solid #A9D6C1;
+}
+
+h1 {
+    color: white;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #87BBA2;
+    border-color: #87BBA2;
+}
+
+.btn-primary:hover {
+    background-color: #558C7E;
+    border-color: #558C7E;
+}
+
+#map-container {
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 0.75rem;
+    box-shadow: 0 8px 30px #373d20;
+}
+
+#map {
+    height: 400px;
+    border-radius: 0.5rem;
+    border: 1px solid #dee2e6;
+}
+
+#distancia {
+    color: white;
+}
+
+#rutaTexto {
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.resultados {
+    color: white;
+}
